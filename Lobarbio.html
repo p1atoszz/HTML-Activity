@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Science Club</h2>
+<fieldset>
+<legend>Personal Information</legend>
+<form action="/action_page.php">
+  <label for=”fullname”>Full Name:</label><br>
+	<input type=”text” id=”fullname” name=”fullname” placeholder="Enter your full name"><br>
+  <br>
+  <label for="email">Email Address:</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your email address"><br>
+  <br>
+  <label for="contact">Contact Number:</label><br>
+  <input type="number" id="contact" name="contact" placeholder="09XXXXXXXXXX"><br>
+  <br>
+  
+  <label for="gender">Gender:</label><br>
+  <input type="radio" id="male" name="male" value="HTML">
+  <label for="gender">Male</label><br>
+  <input type="radio" id="female" name="female" value="HTML">
+  <label for="gender">Female</label><br>
+  <br>
+
+<form action="/action_page.php">
+  <label for="course">Grade Level:</label><br>
+  <select name="grade" id="grade">
+	<option value="grade">Select your grade level:</option>
+    <option value="grade">Grade 7</option>
+    <option value="grade">Grade 8</option>
+    <option value="grade">Grade 9</option>
+    <option value="grade">Grade 10</option>
+  </select>
+  </fieldset><br>
+  
+  <fieldset>
+<legend>Membership Information</legend>
+<label for="interests">Interests:</label><br>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="interest" name="interest">
+  <label for="interest"> Physics</label><br>
+  <input type="checkbox" id="interest" name="interest">
+  <label for="interest"> Chemistry</label><br>
+  <input type="checkbox" id="interest" name="interest">
+  <label for="interets"> Biology</label><br><br>
+  
+  <label for="course">Type of Member:</label><br>
+   <select name="grade" id="grade">
+    <option value="grade">New Member</option>
+    <option value="grade">Returning Member</option>
+    </select>
+    <br><br>
+    
+    <label for="interests">Comments or suggestions:</label><br>
+<textarea name="feedback" rows="10" cols="50" placeholder="Write your message here..."></textarea>
+
+<br>
+ 
+ <input type="submit" value="Submit">
+ <input type="reset" value="Reset">
+ 
+  
+</form> 
+
+
+</body>
+</html>
+
