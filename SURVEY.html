@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+</head>
+<body bgcolor="#F8EDE3">
+
+<h1>Survey Form</h1>
+
+<form>
+
+    How often do you plan to use your account?
+    <br>
+    <select name="usage_frequency" required>
+        <option value="">Choose</option>
+        <option>Daily</option>
+        <option>Weekly</option>
+        <option>Monthly</option>
+        <option>Rarely</option>
+    </select><br><br>
+
+    Which features are you most interested in?<br>
+    <input type="checkbox" name="features" value="Messaging"> Messaging<br>
+    <input type="checkbox" name="features" value="File Sharing"> File Sharing<br>
+    <input type="checkbox" name="features" value="Video Calls"> Video Calls<br>
+    <input type="checkbox" name="features" value="Cloud Storage"> Cloud Storage<br><br>
+
+    Preferred Contact Method:<br>
+    <input type="radio" name="contact" value="Email" required> Email<br>
+    <input type="radio" name="contact" value="Phone"> Phone<br>
+    <input type="radio" name="contact" value="SMS"> SMS<br><br>
+
+    Additional comments:<br>
+    <textarea name="comments" rows="5" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit Survey">
+
+</form>
+
+</body>
+</html>
