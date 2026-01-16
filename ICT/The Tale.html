@@ -2,13 +2,59 @@
 <html>
 <head>
     <title>The Tale - Duwende</title>
-    <link rel="stylesheet" href="style.css">
     <style>
         body {
             background-color: #171717;
             font-family: 'Trebuchet MS', sans-serif;
+            margin: 1;
+            padding: 1;
+        }
+
+        ul {
             margin: 0;
             padding: 0;
+            background-color: #444444;
+            text-align: center;
+            list-style-type: none;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+
+        ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 20px;
+            text-decoration: none;
+            border-radius: 12px;
+            /* Resetting button-like styles for Nav */
+            background-color: transparent; 
+            margin: 0;
+            font-weight: normal;
+        }
+
+        ul li a:hover {
+            background-color: #A86523;
+            box-shadow: 0 0 10px #E9A319, 0 0 20px #D6C0B3;
+        }
+
+        div a {
+            background-color: #AB886D;
+            color: #EEEEEE;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        div a:hover {
+            background-color: #E9A319;
+            box-shadow: 0 0 15px #E9A319; 
         }
 
         .container {
@@ -37,49 +83,43 @@
             text-shadow: 0 0 10px #E9A319, 0 0 20px #E9A319;
         }
 
-        a {
-            background-color: #AB886D;
-            color: #EEEEEE;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            margin: 10px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        a:hover {
-            background-color: #E9A319;
-            box-shadow: 0 0 15px #E9A319; 
-        }
-
-        .story-part { display: none; }
-        .story-part:target { display: block; }
         .story-part { 
-        background-color: #2D241E;
-  		border: 3px solid #AB886D;
-  		padding: 20px;
- 		width: 70%;
-		margin: 20px auto;
- 	 	border-radius: 15px;
+            display: none; 
+            background-color: #2D241E;
+            border: 3px solid #AB886D;
+            padding: 20px;
+            width: 70%;
+            margin: 20px auto;
+            border-radius: 15px;
         }
 
-        h2 {
-            color: #EEEEEE;
-            text-align: left;
-            text-shadow: 0 0 10px #AB886D;
+        .story-part:target { 
+            display: block; 
         }
-        
-        p  {
-        	color: #EEEEEE;
+
+        .my-box h2 {
+            color: #EEEEEE;
             text-align: center;
             text-shadow: 0 0 10px #AB886D;
         }
-            
+
+        .glowing-paragraph {
+            color: #FFFFFF;
+            font-size: 18px;
+            line-height: 1.6;
+            text-shadow: 0 0 10px #E9A319, 0 0 20px #D6C0B3;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="story.html">The Tale</a></li>
+  <li><a href="about.html">Behind the Legend</a></li>
+  <li><a href="profile.html">My Profile</a></li>
+</ul>
 
 <div class="container">
     <img src="https://i0.wp.com/www.mybalitz.com/wp-content/uploads/2021/07/duwende2.jpg?resize=600%2C400&ssl=1" alt="Duwende">
@@ -111,7 +151,7 @@
     </div>
 </div>
 
-<div id="end" class="story-part" class="my-box">
+<div id="end" class="story-part">
     <div class="my-box">
         <h2>End</h2>
         <p class="glowing-paragraph">
