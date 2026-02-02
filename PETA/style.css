@@ -1,0 +1,95 @@
+body {
+  background-color: #131924;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+h1 {
+  color: #EEEEEE;
+  text-align: center;
+  font-family: "Lucida Handwriting";
+  text-shadow: 0 0 30px #fff, 0 0 10px #393E46, 0 0 20px #AB886D;
+}
+
+h3 {
+  color: #EEEEEE;
+  text-align: center;
+  font-family: Papyrus;
+  text-shadow: 0 0 30px #fff, 0 0 10px #393E46;
+}
+
+p {
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  background-color: #27374D;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  display: block;
+  padding: 15px 20px;
+  border-radius: 12px;
+  font-family: "Apple Chancery", cursive;
+  text-decoration: none;
+}
+
+ul li a:link {
+  color: white;
+}
+
+ul li a:visited {
+  color: #DDE6ED;
+}
+
+ul li a:hover {
+  background-color: #526D82;
+  box-shadow: 0 0 10px #9DB2BF, 0 0 20px #9DB2BF;
+}
+
+ul li a:active {
+  background-color: #9DB2BF;
+}
+
+.my-box {
+  background-color: #3F5366;
+  border: 3px solid #2F3E4C;
+  padding: 20px;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+span {
+  color: #FFD369;
+  font-weight: bold;
+}
+
+img {
+  width: 250px;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #DDE6ED;
+}
+
+footer {
+  background-color: #27374D;
+  color: #DDE6ED;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
