@@ -30,6 +30,11 @@ ul {
   background-color: #27374D;
   padding: 0;
   text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  margin: 0;
 }
 
 ul li {
@@ -93,6 +98,7 @@ footer {
   padding: 10px;
   margin-top: 40px;
 }
+
 
 
 
