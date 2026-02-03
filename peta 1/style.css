@@ -1,0 +1,126 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica';
+    background-color: #fff0f5;
+    color: #5d4037;
+}
+
+h1, h2 {
+    color: #ff4d6d;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	font-family: Segoe Script;
+	text-align: center;
+}
+
+h3 {
+    color: #EB3B5B;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	font-family: Lucida Console, Courier New, monospace;
+	text-align: center;
+}
+
+p {
+    color: black;
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff85a2;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+    justify-content: center; 
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a:link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:visited {
+    color: #ffe0e9;
+}
+
+ul li a:hover {
+    background-color: #ff4d6d;
+    box-shadow: 0 0 10px white,
+                0 0 20px white;
+	border-radius: 12px
+}
+
+ul li a:active {
+    background-color: #ffffff;
+    color: #ff85a2;
+}
+
+.container {
+    width: 70%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px #ffc2d1;
+    border: 2px solid #ffc2d1;
+}
+
+.highlight {
+    background-color: #ffc2d1;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.blog-img {
+    width: 600px;
+    max-width: 100%;
+    border-radius: 15px;
+    margin: 10px auto;
+    border: 4px solid #ff85a2;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-box {
+    margin: 1px;
+    text-align: center;
+}
+
+.gallery-img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 0.4s;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+	border: 4px solid #ff85a2;
+	cursor: pointer;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(255, 77, 109, 0.4);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff85a2;
+    color: white;
+    margin-top: 50px;
+}
